@@ -8,3 +8,6 @@ There exists two simultaneous goals within this organization.
 2. To create a language model capable of generating new content based on a provided knowledge domain.
 
 ## File Descriptions
+
+#### Initial Research
+This file contains the initial research into the validity of the idea, the current level of performance and a description of the top-performing methods related to the listed goals. 
