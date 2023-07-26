@@ -19,3 +19,8 @@ This file contains the initial research into the validity of the idea, the curre
 It explores existing models, products, and research. As well as delving into the underlying structure of 
 prominent Large Language Models (LLM's) such as ChatGPT. 
 
+#### Possibilities
+This file explores and investigates the possible avenues for further exploration. 
+It deals with providing a description of the possibility, the rational behind its selection, the tools required to be used, and the resources available. 
+Additionally it details interesting side-projects that may be compatable with the main goal. 
+The possibilities file seeks to narrow the scope of the project and provide a set of options that can be selected for developement and investigation.
