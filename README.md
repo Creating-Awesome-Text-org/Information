@@ -11,9 +11,11 @@ To summarize the above goals, the aim is to construct a model that is capable of
 text to mimic the author's style. This encompasses grammatical, spelling, rephrasing, and generative capabilities of the 
 described aims.
 
+
 ## File Descriptions
 
 #### Initial Research
-This file contains the initial research into the aims described above. 
+This file contains the initial research into the validity of the idea, the current level of performance and a description of the top-performing methods related to the listed goals. 
 It explores existing models, products, and research. As well as delving into the underlying structure of 
 prominent Large Language Models (LLM's) such as ChatGPT. 
+
