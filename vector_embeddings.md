@@ -117,7 +117,6 @@ Chroma is an open-source, AI native, local-based embeddings database.
 Sources:
 - [https://medium.com/@woyera/pinecone-vs-chroma-the-pros-and-cons-2b0b7628f48f](https://medium.com/@woyera/pinecone-vs-chroma-the-pros-and-cons-2b0b7628f48f)
 
-#### Cons:
 
 ### Milvus
 Link: [https://milvus.io/](https://milvus.io/)
