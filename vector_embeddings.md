@@ -60,16 +60,13 @@ The following linear algebra actions can be applied:
 
 <p align="center">
     <img src="resources/vector_correlation.png" width="470" height="425" alt="Correlation in Vector Space">
-
-    Source: The Evolution of Milvus: A Cloud-Native Vector Database - Frank Liu, Zilliz
 </p>
+Source: The Evolution of Milvus: A Cloud-Native Vector Database - Frank Liu, Zilliz
 
 <p align="center">
     <img src="resources/image_similarity.png" width="470" height="425" alt="Image similarity search">
-
-    Source: The Evolution of Milvus: A Cloud-Native Vector Database - Frank Liu, Zilliz
 </p>
-
+Source: The Evolution of Milvus: A Cloud-Native Vector Database - Frank Liu, Zilliz
 
 ### Process Summary
 1. Text Embedding: Before storage, the textual data is transformed into numerical representations called text embeddings. This conversion involves techniques like Word2Vec, GloVe, or more advanced language models like BERT or GPT, which map words or phrases to dense vectors in a semantic space.
