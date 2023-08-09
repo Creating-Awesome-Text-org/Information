@@ -63,10 +63,12 @@ The following linear algebra actions can be applied:
 </p>
 Source: The Evolution of Milvus: A Cloud-Native Vector Database - Frank Liu, Zilliz
 
+
 <p align="center">
     <img src="resources/image_similarity.png" width="470" height="425" alt="Image similarity search">
 </p>
 Source: The Evolution of Milvus: A Cloud-Native Vector Database - Frank Liu, Zilliz
+
 
 ### Process Summary
 1. Text Embedding: Before storage, the textual data is transformed into numerical representations called text embeddings. This conversion involves techniques like Word2Vec, GloVe, or more advanced language models like BERT or GPT, which map words or phrases to dense vectors in a semantic space.
@@ -77,6 +79,38 @@ Source: The Evolution of Milvus: A Cloud-Native Vector Database - Frank Liu, Zil
 6. Applications: Vector databases storing textual data find applications in various fields. They power search engines, recommendation systems, content similarity detection, sentiment analysis, and more, where understanding the semantic relationships between texts is crucial.
 
 ## Potential Vector Storage Solutions
+
+### Pinecone
+
+### Chroma
+
+### Milvus
+Link: [https://milvus.io/](https://milvus.io/)
+
+Milvus is an open-source vector database designed for storing and managing high-dimensional vector data. It aims to 
+provide efficient similarity search and analytics capabilities on large-scale datasets. Milvus can be deployed 
+locally and in the cloud.
+
+### FAISS
+Link: [https://ai.meta.com/tools/faiss/](https://ai.meta.com/tools/faiss/)
+
+FAISS is an open-source library developed by Facebook AI Research for efficient similarity search and clustering of 
+high-dimensional vectors. It offers various indexing structures and search algorithms optimized for 
+large-scale nearest neighbor search tasks. The library is intended for local use, with the capability to be hosted.
+
+
+### HNSWLIB
+Link: [https://github.com/nmslib/hnswlib](https://github.com/nmslib/hnswlib)
+
+HNSWLIB (Hierarchical Navigable Small World Library) is a local library, meaning it is designed to be used within a 
+specific software application or environment on a local machine. 
+It is not inherently cloud-based, but you can certainly deploy applications that use HNSWLIB on cloud 
+infrastructure if needed. 
+The library provides functionalities for building and searching nearest neighbor index structures locally, 
+allowing for efficient nearest neighbor search operations on high-dimensional data within the context of the 
+application it's integrated into.
+
+### Choice Rationality
 
 
 ## Sources
