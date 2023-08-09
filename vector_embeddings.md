@@ -58,11 +58,14 @@ The following linear algebra actions can be applied:
 10. Attention Mechanisms: In natural language processing, attention mechanisms leverage vector actions to assign different weights to different parts of a sequence, allowing models to focus on specific elements during tasks like translation or text summarization.
 11. Correlation: Correlation between vectors within the space can reveal underlying semantics and relations within the vector space. The example below visualizes this concept
 
-![img.png](img.png)
+<p align="center">
+    <img src="resources/vector_correlation.png" width="470" height="425" alt="Correlation in Vector Space">
+</p>
 
 <p align="center">
-    <img src="resources/vector_correlation.png" width="470" height="425" alt="Word Embedding">
+    <img src="resources/image_similarity.png" width="470" height="425" alt="Image similarity search">
 </p>
+
 
 ## Sources
 - [The Evolution of Milvus: A Cloud-Native Vector Database - Frank Liu, Zilliz](https://youtu.be/4yQjsY5iD9Q?si=u58fMUuCaL1oDoN4)
