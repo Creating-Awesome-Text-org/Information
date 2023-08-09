@@ -42,6 +42,28 @@ Take for example the below vector space generated from a set of words:
     <img src="resources/word_embedding.png" width="470" height="425" alt="Word Embedding">
 </p>
 
+#### Embedding Arithmetic
+Within a vector space, the embeddings are subject to the mathematics underlying laws of linear algebra.
+The following linear algebra actions can be applied:
+
+1. Vector Addition and Subtraction: Adding or subtracting vectors can highlight relationships between them. For example, in the context of word embeddings, the operation "king - man + woman" might result in a vector close to the "queen" vector, demonstrating the ability to capture analogies.
+2. Cosine Similarity: Cosine similarity measures the cosine of the angle between two vectors. It quantifies the similarity between vectors in terms of their direction, not their magnitude. This is often used to find similarity between embeddings, like measuring the similarity between two text documents.
+3. Nearest Neighbor Search: Given an embedding vector, a nearest neighbor search identifies other vectors in the dataset that are closest to the given vector in terms of Euclidean distance, cosine similarity, or other distance metrics. This is useful for recommendation systems and content retrieval.
+4. Clustering: Grouping similar vectors together based on their proximity in the vector space is known as clustering. K-means clustering and hierarchical clustering are common techniques used with embeddings to group similar data points.
+5. Principal Component Analysis (PCA) and Dimensionality Reduction: PCA is a technique to reduce the dimensionality of the data while preserving its most important variations. It can be applied to embeddings to simplify visualization and analysis while retaining essential information.
+6. Arithmetic Operations on Image Embeddings: In computer vision, embeddings can represent images. You can perform arithmetic operations on these embeddings to achieve interesting effects, like image style transfer or morphing.
+7. Time Series Analysis: Embeddings of time series data can be used to detect patterns and anomalies, aiding in forecasting and anomaly detection tasks.
+8. Text Similarity and Sentiment Analysis: By measuring the similarity between text embeddings, you can gauge the semantic similarity between different text documents. This is used in sentiment analysis, text classification, and recommendation systems.
+9. Interpolation and Extrapolation: By linearly interpolating between two embeddings, you can generate new embeddings representing intermediate states. Extrapolation extends this to create embeddings representing points beyond the original data distribution.
+10. Attention Mechanisms: In natural language processing, attention mechanisms leverage vector actions to assign different weights to different parts of a sequence, allowing models to focus on specific elements during tasks like translation or text summarization.
+11. Correlation: Correlation between vectors within the space can reveal underlying semantics and relations within the vector space. The example below visualizes this concept
+
+![img.png](img.png)
+
+<p align="center">
+    <img src="resources/vector_correlation.png" width="470" height="425" alt="Word Embedding">
+</p>
+
 ## Sources
 - [The Evolution of Milvus: A Cloud-Native Vector Database - Frank Liu, Zilliz](https://youtu.be/4yQjsY5iD9Q?si=u58fMUuCaL1oDoN4)
 
