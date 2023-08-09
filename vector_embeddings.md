@@ -60,11 +60,13 @@ The following linear algebra actions can be applied:
 
 <p align="center">
     <img src="resources/vector_correlation.png" width="470" height="425" alt="Correlation in Vector Space">
+
     Source: The Evolution of Milvus: A Cloud-Native Vector Database - Frank Liu, Zilliz
 </p>
 
 <p align="center">
     <img src="resources/image_similarity.png" width="470" height="425" alt="Image similarity search">
+
     Source: The Evolution of Milvus: A Cloud-Native Vector Database - Frank Liu, Zilliz
 </p>
 
