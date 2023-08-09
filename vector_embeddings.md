@@ -60,11 +60,24 @@ The following linear algebra actions can be applied:
 
 <p align="center">
     <img src="resources/vector_correlation.png" width="470" height="425" alt="Correlation in Vector Space">
+    Source: The Evolution of Milvus: A Cloud-Native Vector Database - Frank Liu, Zilliz
 </p>
 
 <p align="center">
     <img src="resources/image_similarity.png" width="470" height="425" alt="Image similarity search">
+    Source: The Evolution of Milvus: A Cloud-Native Vector Database - Frank Liu, Zilliz
 </p>
+
+
+### Process Summary
+1. Text Embedding: Before storage, the textual data is transformed into numerical representations called text embeddings. This conversion involves techniques like Word2Vec, GloVe, or more advanced language models like BERT or GPT, which map words or phrases to dense vectors in a semantic space.
+2. Vector Representation: Each text embedding becomes a vector in a high-dimensional space, where the dimensions correspond to different features or aspects of the text's meaning. Words or phrases with similar meanings are positioned closer to each other in this vector space.
+3. Indexing: Vector databases employ specialized indexing structures optimized for vector data. These indexes store information about the vectors' positions, allowing for efficient retrieval of similar vectors or nearest neighbors.
+4. Similarity Search: When querying the database with a specific text, the query text is transformed into a vector using the same embedding technique. The database then performs a similarity search, identifying the nearest vectors in the high-dimensional space to the query vector. These nearest vectors represent texts with similar semantic content.
+5. Ranking and Retrieval: The retrieved vectors are ranked based on their similarity to the query vector. The top-ranked vectors represent the most similar texts, and these can be returned as search results.
+6. Applications: Vector databases storing textual data find applications in various fields. They power search engines, recommendation systems, content similarity detection, sentiment analysis, and more, where understanding the semantic relationships between texts is crucial.
+
+## Potential Vector Storage Solutions
 
 
 ## Sources
