@@ -81,8 +81,43 @@ Source: The Evolution of Milvus: A Cloud-Native Vector Database - Frank Liu, Zil
 ## Potential Vector Storage Solutions
 
 ### Pinecone
+Link: [https://www.pinecone.io/](https://www.pinecone.io/)
+
+Pinecone is a cloud-based vector database and similarity search service that enables fast and scalable retrieval of high-dimensional vectors. It's designed to simplify the implementation of similarity search and recommendation systems.
+
+#### Pros:
+1. Scalability: Pinecone is a cloud-native service, offering automatic scaling and load balancing to handle growing amounts of data and queries.
+2. Efficient Search: It provides fast and accurate similarity search operations, delivering real-time results for nearest neighbor queries.
+3. Ease of Use: Pinecone abstracts complex vector indexing and search processes, making it easier to integrate similarity search capabilities into applications.
+4. Versatility: Suitable for various applications like recommendation engines, content personalization, anomaly detection, and more.
+5. Indexing Methods: Pinecone offers different indexing methods, such as HNSW (Hierarchical Navigable Small World), allowing users to optimize performance based on their data characteristics.
+
+#### Cons:
+1. Cloud Dependency: As a cloud-based service, Pinecone requires internet connectivity and relies on the cloud provider's infrastructure.
+2. Data Privacy and Security: Users need to consider data privacy and security implications when using cloud services to store and manage their data.
+3. Costs: Depending on the volume of data and usage, cloud-based services like Pinecone may incur costs.
+4. Learning Curve: While Pinecone simplifies similarity search, users might still need some learning to effectively integrate and utilize the service.
 
 ### Chroma
+Link: [https://docs.trychroma.com/](https://docs.trychroma.com/)
+
+Chroma is an open-source, AI native, local-based embeddings database. 
+
+#### Pros:
+1. Scalability: Chroma is a local service with capability to be hosted as a cloud-solution.
+2. Ease of Use: Chroma provides a simple and intuitive interface with which to interact with the Vector database.
+3. Feature rich: The simple interface by no means limits the available features within Chroma, with capabilities equalling the other listed software.
+4. Well documented: Chroma provides excellent and rich documentation specifying steps and process to achieve desired goals and states. 
+5. Open-source: No cost associated with the solution and a team of like-minded individuals working on and with the solution. 
+
+#### Cons
+- Complexity in scaled deployment: Scaling the deployment of Chroma may be difficult in comparison to an automated solution such as Pinecone
+- Throughput limitations: To achieve the same rate of throughput as managed systems such as Pinecone, the Chroma DB will require additional work.
+
+Sources:
+- [https://medium.com/@woyera/pinecone-vs-chroma-the-pros-and-cons-2b0b7628f48f](https://medium.com/@woyera/pinecone-vs-chroma-the-pros-and-cons-2b0b7628f48f)
+
+#### Cons:
 
 ### Milvus
 Link: [https://milvus.io/](https://milvus.io/)
