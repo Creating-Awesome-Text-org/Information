@@ -183,8 +183,11 @@ Cons:
 3. Trade-off between Speed and Accuracy: Adjusting parameters for faster search times may lead to slight compromises in search accuracy.
 
 ### Choice Rationality
-
+Pinecone offers a ready-to-go service free for a reasonable quantity of data. This enables us to test the system to determine
+if it is succesful. From that point design decisions can be made to switch to an open-source self-managed vector database. 
+The choice of vector storage will be re-assessed at a later point. 
 
 ## Sources
 - [The Evolution of Milvus: A Cloud-Native Vector Database - Frank Liu, Zilliz](https://youtu.be/4yQjsY5iD9Q?si=u58fMUuCaL1oDoN4)
+- [https://blog.devgenius.io/an-evaluation-of-vector-database-systems-features-and-use-cases-9a90b05eb51f](https://blog.devgenius.io/an-evaluation-of-vector-database-systems-features-and-use-cases-9a90b05eb51f)
 
